@@ -19,7 +19,7 @@ candidate_options = []
 ## Declare the empty dictionary
 candidate_votes = {}
 
-## Open the election results and read the file.
+
 with open(file_to_load) as election_data:
     file_reader = csv.reader(election_data)
 
