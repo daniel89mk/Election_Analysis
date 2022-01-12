@@ -3,6 +3,7 @@ Python practice!
 
 ## Import csv & OS
 import csv
+
 import os
 
 ## Assign a variable to load a file from a path.
