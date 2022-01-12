@@ -52,9 +52,7 @@ with open(file_to_load) as election_data:
 ## Print the candidate vote dictionary
 print(candidate_votes)
 
-    #for row in file_reader:
-        #print(row)
-
+    
 ## The percentage of votes each candidate won
 for candidate_name in candidate_votes:
 
