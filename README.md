@@ -1,24 +1,24 @@
 # Election_Analysis
 Python practice!
 
-## Import csv & OS
+
 import csv
 
 import os
 
-## Assign a variable to load a file from a path.
+
 file_to_load = os.path.join("Resources", "election_results.csv")
 
-## Assign a variable to save the file to a path.
+
 file_to_save = os.path.join("analysis", "election_analysis.txt")
 
-## Initialize a total vote counter
+
 total_votes = 0
 
-## Candidate options and candidate votes
+
 candidate_options = []
 
-## Declare the empty dictionary
+
 candidate_votes = {}
 
 
@@ -52,11 +52,11 @@ with open(file_to_load) as election_data:
 
        
 
-## Print the candidate vote dictionary
+
 print(candidate_votes)
 
     
-## The percentage of votes each candidate won
+
 for candidate_name in candidate_votes:
 
     votes = candidate_votes[candidate_name]
