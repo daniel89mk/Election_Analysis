@@ -5,7 +5,7 @@ Election data from a recent local congressional election was given to me and I p
 
 ## Election-Audit Results
 
-### By performing my audit in Python, I ended up getting the result shown in the screenshot below:
+##### After performing my audit in Python, I ended up getting the result shown in the screenshot below:
 
 ![election_result](election_analysis_screenshot.png)
 
@@ -36,7 +36,12 @@ calculate how many votes each county got, and finally pull the result of the ele
 who won the election. At the end, the summary of the results will be printed in my text file and saved. 
 
 This script can be used with some modification for any election. 
-For example, 
+For example, if your election data was not just this current year's, but also past years', showing in the extra column in the csv file, 
+you could make the script read 'year' and perform a different type of analysis which could inform us in which year, which county had the largest votes,
+and the date could lead people to vote more. 
+Another example that I could think of is what if some people voted for more than one candidate? This could happen.
+So, if we could receive the data in the column of candidate names, such as n/a or 0, or anything that states different way of not showing candidate names,
+we would be able to have some modification in the script and calculate vote counts deducted by the n/a's. Then we would get the right information/result of the election.
 
 
 ## Here is my script!
