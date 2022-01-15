@@ -43,37 +43,37 @@ For example,
 
 ## Here is my script!
 
-# Add our dependencies.
+    # Add our dependencies.
 import csv
 import os
 
-# Add a variable to load a file from a path.
+    # Add a variable to load a file from a path.
 file_to_load = os.path.join("Resources", "election_results.csv")
-# Add a variable to save the file to a path.
+    # Add a variable to save the file to a path.
 file_to_save = os.path.join("analysis", "election_analysis.txt")
 
-# Initialize a total vote counter.
+    # Initialize a total vote counter.
 total_votes = 0
 
-# Candidate Options and candidate votes.
+    # Candidate Options and candidate votes.
 candidate_options = []
 candidate_votes = {}
 
-# 1: Create a county list and county votes dictionary.
+    # 1: Create a county list and county votes dictionary.
 county_options = []
 county_votes = {}
 
-# Track the winning candidate, vote count and percentage
+    # Track the winning candidate, vote count and percentage
 winning_candidate = ""
 winning_count = 0
 winning_percentage = 0
 
-# 2: Track the largest county and county voter turnout
+    # 2: Track the largest county and county voter turnout
 largest_county_turnout = ""
 largest_county_votes = 0
 
 
-# Read the csv and convert it into a list of dictionaries
+    # Read the csv and convert it into a list of dictionaries
 with open(file_to_load) as election_data:
     reader = csv.reader(election_data)
 
@@ -118,8 +118,8 @@ with open(file_to_load) as election_data:
         county_votes[county_name] += 1
 
 
-# Save the results to our text file.
-with open(file_to_save, "w") as txt_file:
+    # Save the results to our text file.
+ with open(file_to_save, "w") as txt_file:
 
     # Print the final vote count (to terminal)
     election_results = (
