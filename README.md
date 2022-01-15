@@ -26,8 +26,16 @@ Election data from a recent local congressional election was given to me and I p
 - Raymon Anthony Doane: 3.1% (11,606)
 
 #### 5. Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
-- Diana DeGette was the winner of the lection! Diana DeGette's vote count was 272,892 which was 73.8% of the total votes.
+- Diana DeGette was the winner of the election! Diana DeGette's vote count was 272,892, which was 73.8% of the total votes.
 
 ## Election-Audit Summary
-This script can be used for any election with some modifications. The script looks like it has so many variables, lists, loops, and if statements,
-but it is actually very organized by the comments in between the lines (describing what the next line will be doing). 
+
+The script looks like it has too many lines and too complicated, but it is actually well-organized with the comments in between the lines 
+(describing what the next line will be doing). 
+If you can follow through each line by the comments, you will see what I am trying to do easily.
+I tried to pull the names of the unique candidates, pull the names of the unique counties, calculate how many votes each candidates got, 
+calculate how many votes each county got, and finally pull the result of the election showing which county had the largest vote count and
+who won the election. At the end, the summary of the results will be printed in my text file and saved. 
+
+This script can be used with some modification for any election. 
+For example, 
