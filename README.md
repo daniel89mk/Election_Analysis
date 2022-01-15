@@ -5,7 +5,7 @@ Election data from a recent local congressional election was given to me and I p
 
 ## Election-Audit Results
 
-### By performing my audit in Python, I ended up getting my result shown in the screenshot below:
+### By performing my audit in Python, I ended up getting the result shown in the screenshot below:
 
 ![election_result](election_analysis_screenshot.png)
 
